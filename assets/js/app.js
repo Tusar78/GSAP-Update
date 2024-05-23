@@ -26,29 +26,49 @@
 //     repeat: -1
 // })
 
-gsap.to(".child1", {
-    x: 648,
-    delay: 1,
-    duration: 1,
-    // repeat: -1,
-    // yoyo: true,
-})
+// gsap.to(".child1", {
+//     x: 648,
+//     delay: 1,
+//     duration: 1,
+//     // repeat: -1,
+//     // yoyo: true,
+// })
 
-gsap.to(".child2", {
-    x: 648,
-    delay: 2,
-    duration: 1,
-    // repeat: -1,
-    // yoyo: true,
-})
+// gsap.to(".child2", {
+//     x: 648,
+//     delay: 2,
+//     duration: 1,
+//     // repeat: -1,
+//     // yoyo: true,
+// })
 
-gsap.to(".child3", {
-    x: 648,
-    delay: 3,
-    duration: 1,
-    // repeat: -1,
-    // yoyo: true,
-})
+// gsap.to(".child3", {
+//     x: 648,
+//     delay: 3,
+//     duration: 1,
+//     // repeat: -1,
+//     // yoyo: true,
+// })
 
 const timeLine = gsap.timeline();
 console.log(timeLine);
+
+timeLine.to(".child1", {
+        x: 648,
+        delay: 1,
+        duration: 1,
+        // repeat: -1,
+        // yoyo: true,
+})
+timeLine.to(".child2", {
+        x: 648,
+        duration: 1,
+        // repeat: -1,
+        // yoyo: true,
+})
+timeLine.to(".child3", {
+        x: 648,
+        duration: 1,
+        // repeat: -1,
+        // yoyo: true,
+})
