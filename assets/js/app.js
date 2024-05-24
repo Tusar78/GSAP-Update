@@ -104,6 +104,9 @@ gsap.from(".section2 .box", {
         scrollTrigger: {
                 trigger: '.section2 .box',
                 scroller: 'body',
+                markers: true,
+                start: 'top 70%'
+
         }
 })
 
