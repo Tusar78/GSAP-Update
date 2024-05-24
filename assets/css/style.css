@@ -79,3 +79,14 @@ body {
   background-color: #ad32ff;
   color: #fff;
 }
+
+.section3  {
+    overflow: hidden;
+}
+
+.section3 p {
+    font-size: 40vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* transform: translateX(-100%); */
+}

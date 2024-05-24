@@ -145,4 +145,15 @@ gsap.from(".section2 h3", {
   },
 });
 
-
+gsap.to(".section3 p", {
+  transform: 'translateX(-100%)',
+  scrollTrigger: {
+    trigger: ".section3",
+    scroller: "body",
+    markers: true,
+    start: "top 0%",
+    end: "top -100%",
+    scrub: 2,
+    pin: true,
+  },
+});
