@@ -90,3 +90,9 @@ tl2.from(".nav-menu a", {
         stagger: 0.5,
 });
 
+gsap.from(".section1 .box", {
+        scale: 0,
+        rotate: -360,
+        duration: 1,
+        delay: 1,
+})
