@@ -124,9 +124,25 @@ gsap.from(".section2 h2", {
   x: 500,
   duration: 1,
   scrollTrigger: {
-    trigger: '.section2 h2',
-    scroller: 'body',
+    trigger: ".section2 h2",
+    scroller: "body",
     markers: true,
     start: "top 50%",
+    scrub: 5,
   },
 });
+
+gsap.from(".section2 h3", {
+  opacity: 0,
+  x: -500,
+  duration: 1,
+  scrollTrigger: {
+    trigger: ".section2 h3",
+    scroller: "body",
+    markers: true,
+    start: "top 50%",
+    scrub: 3,
+  },
+});
+
+
