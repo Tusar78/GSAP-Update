@@ -44,6 +44,9 @@ body {
 
 .section-wrap .section2 {
     background-color: #92b8ff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .section-wrap .section3 {
@@ -54,4 +57,19 @@ body {
     width: 400px;
     height: 400px;
     background-color: #ff00b3;
+}
+
+.gretting-text1,
+.gretting-text2{
+    background-color: #ebff32;
+    color: black;
+    font-size: 80px;
+    font-weight: 600;
+    padding: 2px 12px;
+    border-radius: 4px;
+}
+
+.gretting-text2{
+    background-color: #ad32ff;
+    color: #fff;
 }
