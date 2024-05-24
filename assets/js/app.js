@@ -101,12 +101,18 @@ gsap.from(".section2 .box", {
         scale: 0,
         rotate: -360,
         duration: 1,
-        delay: 1,
+        scrollTrigger: {
+                trigger: '.section2 .box',
+                scroller: 'body',
+        }
 })
 
 gsap.from(".section3 .box", {
         scale: 0,
         rotate: -360,
         duration: 1,
-        delay: 1,
+        scrollTrigger: {
+                trigger: '.section3 .box',
+                scroller: 'body',
+        }
 })
