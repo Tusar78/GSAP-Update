@@ -76,46 +76,57 @@
 const tl = gsap.timeline();
 const tl2 = gsap.timeline();
 tl.from(".brand", {
-        opacity: 0,
-        y: -20,
-        delay: 1,
-        duration: 0.5,
+  opacity: 0,
+  y: -20,
+  delay: 1,
+  duration: 0.5,
 });
 
 tl2.from(".nav-menu a", {
-        y: -20,
-        opacity: 0,
-        delay: 1,
-        duration: 0.5,
-        stagger: 0.5,
+  y: -20,
+  opacity: 0,
+  delay: 1,
+  duration: 0.5,
+  stagger: 0.5,
 });
 
 gsap.from(".section1 .box", {
-        scale: 0,
-        rotate: -360,
-        duration: 1,
-        delay: 1,
-})
+  scale: 0,
+  rotate: -360,
+  duration: 1,
+  delay: 1,
+});
 
-gsap.from(".section2 .box", {
-        scale: 0,
-        rotate: -360,
-        duration: 1,
-        scrollTrigger: {
-                trigger: '.section2 .box',
-                scroller: 'body',
-                markers: true,
-                start: 'top 70%'
+// gsap.from(".section2 .box", {
+//   scale: 0,
+//   rotate: -360,
+//   duration: 1,
+//   scrollTrigger: {
+//     trigger: ".section2 .box",
+//     scroller: "body",
+//     markers: true,
+//     start: "top 50%",
+//   },
+// });
 
-        }
-})
+// gsap.from(".section3 .box", {
+//         scale: 0,
+//         rotate: -360,
+//         duration: 1,
+//         scrollTrigger: {
+//                 trigger: '.section3 .box',
+//                 scroller: 'body',
+//         }
+// })
 
-gsap.from(".section3 .box", {
-        scale: 0,
-        rotate: -360,
-        duration: 1,
-        scrollTrigger: {
-                trigger: '.section3 .box',
-                scroller: 'body',
-        }
-})
+gsap.from(".section2 h2", {
+  opacity: 0,
+  x: 500,
+  duration: 1,
+  scrollTrigger: {
+    trigger: '.section2 h2',
+    scroller: 'body',
+    markers: true,
+    start: "top 50%",
+  },
+});
