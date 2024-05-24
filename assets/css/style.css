@@ -13,25 +13,3 @@ body {
   height: 100%;
 }
 
-.parent{
-    margin: 100px;
-    width: 100%;
-    max-width: 750px;
-    height: 300px;
-    border: 1px solid crimson;
-}
-
-.parent > div {
-    width: 100px;
-    height: 100px;
-}
-
-.child1 {
-    background-color: cornflowerblue;
-}
-.child2 {
-    background-color: darkorange;
-}
-.child3 {
-    background-color: gold;
-}
