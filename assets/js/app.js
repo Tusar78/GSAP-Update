@@ -50,25 +50,43 @@
 //     // yoyo: true,
 // })
 
-const timeLine = gsap.timeline();
-console.log(timeLine);
+// const timeLine = gsap.timeline();
+// console.log(timeLine);
 
-timeLine.to(".child1", {
-        x: 648,
+// timeLine.to(".child1", {
+//         x: 648,
+//         delay: 1,
+//         duration: 1,
+//         // repeat: -1,
+//         // yoyo: true,
+// })
+// timeLine.to(".child2", {
+//         x: 648,
+//         duration: 1,
+//         // repeat: -1,
+//         // yoyo: true,
+// })
+// timeLine.to(".child3", {
+//         x: 648,
+//         duration: 1,
+//         // repeat: -1,
+//         // yoyo: true,
+// })
+
+const tl = gsap.timeline();
+const tl2 = gsap.timeline();
+tl.from(".brand", {
+        opacity: 0,
+        y: -20,
         delay: 1,
-        duration: 1,
-        // repeat: -1,
-        // yoyo: true,
-})
-timeLine.to(".child2", {
-        x: 648,
-        duration: 1,
-        // repeat: -1,
-        // yoyo: true,
-})
-timeLine.to(".child3", {
-        x: 648,
-        duration: 1,
-        // repeat: -1,
-        // yoyo: true,
-})
+        duration: 0.5,
+});
+
+tl2.from(".nav-menu a", {
+        y: -20,
+        opacity: 0,
+        delay: 1,
+        duration: 0.5,
+        stagger: 0.5,
+});
+

@@ -13,3 +13,45 @@ body {
   height: 100%;
 }
 
+.nav {
+    width: 100%;
+    max-width: 1160px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-wrap > div {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-wrap .section1 {
+    background-color: #a992ff;
+}
+
+.section-wrap .section2 {
+    background-color: #92b8ff;
+}
+
+.section-wrap .section3 {
+    background-color: #e992ff;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #ff00b3;
+}
