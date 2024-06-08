@@ -73,29 +73,29 @@
 //         // yoyo: true,
 // })
 
-const tl = gsap.timeline();
-const tl2 = gsap.timeline();
-tl.from(".brand", {
-  opacity: 0,
-  y: -20,
-  delay: 1,
-  duration: 0.5,
-});
+// const tl = gsap.timeline();
+// const tl2 = gsap.timeline();
+// tl.from(".brand", {
+//   opacity: 0,
+//   y: -20,
+//   delay: 1,
+//   duration: 0.5,
+// });
 
-tl2.from(".nav-menu a", {
-  y: -20,
-  opacity: 0,
-  delay: 1,
-  duration: 0.5,
-  stagger: 0.5,
-});
+// tl2.from(".nav-menu a", {
+//   y: -20,
+//   opacity: 0,
+//   delay: 1,
+//   duration: 0.5,
+//   stagger: 0.5,
+// });
 
-gsap.from(".section1 .box", {
-  scale: 0,
-  rotate: -360,
-  duration: 1,
-  delay: 1,
-});
+// gsap.from(".section1 .box", {
+//   scale: 0,
+//   rotate: -360,
+//   duration: 1,
+//   delay: 1,
+// });
 
 // gsap.from(".section2 .box", {
 //   scale: 0,
@@ -119,41 +119,41 @@ gsap.from(".section1 .box", {
 //         }
 // })
 
-gsap.from(".section2 h2", {
-  opacity: 0,
-  x: 500,
-  duration: 1,
-  scrollTrigger: {
-    trigger: ".section2 h2",
-    scroller: "body",
-    markers: true,
-    start: "top 50%",
-    scrub: 5,
-  },
-});
+// gsap.from(".section2 h2", {
+//   opacity: 0,
+//   x: 500,
+//   duration: 1,
+//   scrollTrigger: {
+//     trigger: ".section2 h2",
+//     scroller: "body",
+//     markers: true,
+//     start: "top 50%",
+//     scrub: 5,
+//   },
+// });
 
-gsap.from(".section2 h3", {
-  opacity: 0,
-  x: -500,
-  duration: 1,
-  scrollTrigger: {
-    trigger: ".section2 h3",
-    scroller: "body",
-    markers: true,
-    start: "top 50%",
-    scrub: 3,
-  },
-});
+// gsap.from(".section2 h3", {
+//   opacity: 0,
+//   x: -500,
+//   duration: 1,
+//   scrollTrigger: {
+//     trigger: ".section2 h3",
+//     scroller: "body",
+//     markers: true,
+//     start: "top 50%",
+//     scrub: 3,
+//   },
+// });
 
-gsap.to(".section3 p", {
-  transform: 'translateX(-100%)',
-  scrollTrigger: {
-    trigger: ".section3",
-    scroller: "body",
-    markers: true,
-    start: "top 0%",
-    end: "top -100%",
-    scrub: 2,
-    pin: true,
-  },
-});
+// gsap.to(".section3 p", {
+//   transform: 'translateX(-100%)',
+//   scrollTrigger: {
+//     trigger: ".section3",
+//     scroller: "body",
+//     markers: true,
+//     start: "top 0%",
+//     end: "top -100%",
+//     scrub: 2,
+//     pin: true,
+//   },
+// });
