@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.h-eight {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  border: 1px solid rebeccapurple;
+  margin-bottom: 2rem;
+}
+
+.scroll__content {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  justify-content: end;
+  margin: auto;
+}
+
+.scroll__inner {
+  position: relative;
+  width: 100%;
+  max-width: 309px;
+  height: calc(100vh * 6);
+  /* background: green; */
+}
+
+.scroll__title {
+  font-size: 44px;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+}
+
+.scroll__items {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+}
+
+.scroll__item {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0;
+  color: #7A00FF;
+  text-align: left;
+  font-size: 44px;
+  font-weight: 700;
+  will-change: transform, opacity;
+}
