@@ -7,6 +7,15 @@
 //     yoyo: true,
 // });
 
+// gsap.to(".box", {
+//   width: "100px",
+//   height: "100px",
+//   x: 200,
+//   duration: 2,
+//   repeat: -1, // Repeat Infinity
+//   yoyo: true // Repeat Smoothly
+// })
+
 // gsap.from("#box2", {
 //     width: "100px",
 //     height: "100px",
@@ -14,8 +23,19 @@
 //     duration: '2',
 //     repeat: -1,
 //     yoyo: true,
-
 // });
+
+gsap.from(".box", {
+  width: "100px",
+  height: "100px",
+  duration: 1,
+  opacity: 0,
+  repeat: -1,
+  // yoyo: true,
+  rotation: 270,
+  scale: 0.5,
+  transformOrigin: "50px 20px",
+});
 
 // gsap.from("h2", {
 //     color: 'red',
