@@ -45,17 +45,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Show The Current Element
-    t1.to(
-      item,
-      {
+    t1.to(item,{
         opacity: 1,
         // scale: 1,
         fontSize: "44px",
         color: "#7A00FF",
         y: 0,
         ease: "none",
-      },
-      "-=.9"
+      },"-=.9"
     );
 
     // Hide the current element if it is not the last one
